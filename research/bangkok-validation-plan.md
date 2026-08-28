@@ -1,6 +1,7 @@
-# ThailandMate — Bangkok Validation Plan (7-Day, Low-Cost)
+# AbroadMate / ThailandMate — Bangkok Validation Plan (7-Day, Low-Cost)
 
 **Date:** 28 August 2026
+**Brand:** platform = **AbroadMate**; first edition = **ThailandMate** (Thailand), Bangkok-first.
 **Tests:** the decision in `bangkok-audience-decision.md` — primary audience = **remote workers/nomads**, first product = **"Bangkok First 90 Days" self-service planner**, with families as the secondary/high-LTV audience.
 **Tags:** [ASSUMPTION] all thresholds/prices are hypotheses · [LEGAL-RISK] official-source framing required. No traffic, commission or competitor-price figures are invented.
 **Budget:** < ~US$100 (landing tool, email tool, optional micro-boost; presale refundable). **No finished product needed** — presale/waitlist validates demand.

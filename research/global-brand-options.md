@@ -1,8 +1,9 @@
-# ThailandMate — Brand Architecture: Thailand edition vs global brand
+# AbroadMate — Brand Architecture: global parent + destination editions
 
 **Date:** 28 August 2026
-**Decision needed:** Bangkok-first now; a platform that must support **any destination worldwide**. Should "ThailandMate" stay the main brand, or become the Thailand edition of a global parent brand?
-**Tags:** [REC] recommendation · [ASSUMPTION] strategic judgement. No traffic/SEO figures are claimed; SEO logic below is general practice.
+**Decision (recorded):** the global platform brand is **AbroadMate**; **ThailandMate** is its first destination edition (Thailand), launching Bangkok-first. This document captures the rationale and the options considered.
+**Tags:** [REC] recommendation (now decided) · [ASSUMPTION] strategic judgement. No traffic/SEO figures are claimed; SEO logic below is general practice.
+**[OPEN] [ASSUMPTION]:** name, domain and trademark availability for "AbroadMate" and the edition labels must be verified before registration — not performed in this research.
 
 ---
 
@@ -25,14 +26,14 @@ The product is marketed as ThailandMate in Thailand; a neutral global name owns 
 
 ---
 
-## 2. Recommendation
+## 2. Recommendation (DECIDED)
 
-> **[REC] Choose Option B/C blend: adopt a neutral global parent brand and ship **ThailandMate as its first destination edition** — keep "ThailandMate" visible as the Thailand sub-brand/title during the Bangkok launch (to capture Thailand-specific recognition and trust), while the platform, accounts, tools and future destinations live under the global brand.**
+> **[DECISION] Adopt a neutral global parent brand — **AbroadMate** — and ship **ThailandMate as its first destination edition**. Keep "ThailandMate" visible as the Thailand sub-brand/title during the Bangkok launch (to capture Thailand-specific recognition and trust), while the platform, accounts, tools and future destinations live under AbroadMate.**
 
 Concretely:
-- **Company/platform + product shell + global URLs:** global brand (navigate by destination; `/thailand/bangkok/...`).
-- **Thailand market-facing name:** "**ThailandMate**" as the Thailand edition (hero on Thailand pages, in Thai-market community posts, and on the Bangkok pack) with a small "a [GlobalBrand] edition" lockup.
-- **Future destinations** get their own edition names under the same parent (e.g., a "PortugalMate"/local edition), all sharing accounts, the pack engine, tools, review system and provider directory.
+- **Company/platform + product shell + global URLs:** **AbroadMate** (navigate by destination; `/thailand/bangkok/...`).
+- **Thailand market-facing name:** "**ThailandMate**" as the Thailand edition (hero on Thailand pages, in Thai-market community posts, and on the Bangkok pack) with a small "an AbroadMate edition" lockup.
+- **Future destinations** get their own edition names under the same parent, all sharing accounts, the pack engine, tools, review system and provider directory.
 
 **Why [REC]:** the product's long-term value is the *reusable engine and trust system* (plans, tools, source-verified freshness), not the Thailand name. Hard-coding the brand to one country would force a costly, equity-destroying rebrand right when expansion succeeds. Keeping ThailandMate as the edition label preserves the one asset the Thailand-specific name provides (local relevance and the recognition already building in research/positioning) while removing the ceiling.
 

@@ -1,8 +1,10 @@
-# ThailandMate — Global Product Architecture
+# AbroadMate — Global Product Architecture
 
-**Date:** 28 August 2026
+**Date:** 28 August 2026 · **Platform brand:** **AbroadMate** (global) · **First edition:** **ThailandMate** (Thailand; Bangkok-first launch).
 **Goal:** launch Bangkok-first, but build a **destination-agnostic** platform so Bangkok/Thailand content later becomes just one "destination pack" among many. This is an implementation-ready architecture brief.
 **Tags:** [REC] recommended structure · [ASSUMPTION] schema choices to confirm in build · [FACT] Thailand-specific anchors. Nothing here is legal advice.
+
+**Brand model (decided):** the platform, accounts, tools, packs and provider directory live under **AbroadMate**. Thailand is the first **destination edition**, marketed as **ThailandMate — the Thailand edition of AbroadMate**. Future countries get their own edition labels under the same parent. (Rationale and alternatives in `global-brand-options.md`.)
 
 ---
 

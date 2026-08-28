@@ -1,6 +1,6 @@
-# ThailandMate — Bangkok Audience Decision (final, launch)
+# AbroadMate / ThailandMate — Bangkok Audience Decision (final, launch)
 
-**Date:** 28 August 2026 · **Launch market:** Bangkok (architecture built to scale globally — see `global-product-architecture.md`).
+**Date:** 28 August 2026 · **Brand:** platform = **AbroadMate**; first edition = **ThailandMate** (Thailand). **Launch market:** Bangkok (architecture built to scale globally — see `global-product-architecture.md`).
 **Tags:** **[FACT]** verified (source + access date 28 Aug 2026) · **[ASSUMPTION]** hypothesis · **[REC]** recommendation · **[LEGAL-RISK]** legally sensitive / changes often. All scores, weights and prices are assumptions to test; no traffic figures, affiliate commissions, legal rules or competitor prices are invented.
 
 ---

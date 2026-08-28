@@ -1,6 +1,6 @@
-# ThailandMate — Source-Risk Audit (high-risk claims)
+# AbroadMate / ThailandMate — Source-Risk Audit (high-risk claims)
 
-**Date:** 28 August 2026
+**Date:** 28 August 2026 · **Brand:** platform = **AbroadMate**; first edition = **ThailandMate** (Thailand/Bangkok).
 **Scope:** the visa, tax, banking, healthcare and insurance claims made across the ThailandMate research (`thailandmate-opportunity-report.md` and related). Purpose: before any of this is published by an AI-assisted product, classify each high-risk claim, state whether it is safe to publish, and identify the primary source and review interval.
 **Rule applied:** legal/tax/visa/insurance statements are **general information only**, link the primary official source, show a last-verified date, and never constitute personalised advice. Secondary/anecdotal sourcing is **not** sufficient to publish a rule as definitive.
 **Tiers:** **Official** (government/regulator) · **Primary-secondary** (licensed firms/banks/official industry bodies; reputable but commercial) · **Secondary** (media/guides) · **Anecdotal** (forums/commentary).
