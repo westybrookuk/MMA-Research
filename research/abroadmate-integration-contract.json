@@ -1,0 +1,422 @@
+{
+  "$schema_note": "Provider-neutral integration contract for AbroadMate/ThailandMate launch funnel. Contains field and event definitions only - no credentials, API keys, endpoints, or provider-specific code.",
+  "document": "abroadmate-integration-contract",
+  "version": "1.0.0",
+  "created": "2026-08-28",
+  "status": "pre-implementation specification; review by privacy/legal reviewer required before any integration is switched on",
+  "principles": [
+    "Minimum data by design; each field names the single store that owns it (system of record).",
+    "Email provider is the system of record for identity/consent; analytics receives enumerated, non-PII events only; payment provider owns all card/billing data; corrections register owns report content.",
+    "Analytics allow-list: only the events and enum properties listed here may ever be sent. Free text, emails, documents, income figures and personal notes are never analytics properties.",
+    "No field in this contract may carry passport, visa, bank, card, medical, exact-income, employer or document data. Such data is never requested.",
+    "Provider-neutral: field names are abstract; adapters map them to whichever provider is chosen per abroadmate-final-stack-recommendation.md."
+  ],
+  "enums": {
+    "audience": [
+      "remote_worker",
+      "family",
+      "other",
+      "skipped",
+      "unknown"
+    ],
+    "destination": [
+      "bangkok",
+      "chiang_mai",
+      "phuket",
+      "other_thailand",
+      "unknown"
+    ],
+    "double_opt_in_status": [
+      "pending",
+      "confirmed",
+      "bounced",
+      "not_required_by_reviewer"
+    ],
+    "unsubscribe_status": [
+      "subscribed",
+      "unsubscribed",
+      "suppressed"
+    ],
+    "pack_interest_action": [
+      "none",
+      "early_access_list_joined",
+      "reserve_clicked",
+      "checkout_opened"
+    ],
+    "price_variant": [
+      "none",
+      "early_access_v1",
+      "standard_v1",
+      "other"
+    ],
+    "checkout_status": [
+      "none",
+      "initiated",
+      "completed",
+      "failed",
+      "refunded",
+      "cancelled"
+    ],
+    "consent_scope": [
+      "newsletter_updates",
+      "pack_launch_updates",
+      "transactional_delivery_only"
+    ]
+  },
+  "fields": [
+    {
+      "name": "email_signup",
+      "type": "boolean_event / identity_created",
+      "description": "A visitor explicitly submitted the signup form with consent. Creates a contact record in the email provider.",
+      "pii": "contains email address - EMAIL PROVIDER ONLY",
+      "store": "email_provider",
+      "analytics_value": "count event email_signup_submitted/email_signup_confirmed only; email string never sent"
+    },
+    {
+      "name": "audience",
+      "type": "enum",
+      "enum": "audience",
+      "description": "Self-selected primary audience, if the visitor volunteers it.",
+      "pii": "no (enum)",
+      "store": "email_provider (custom field, only after consent); analytics (enum property)",
+      "analytics_value": "enum value allowed"
+    },
+    {
+      "name": "destination",
+      "type": "enum",
+      "enum": "destination",
+      "description": "City/edition of interest, if selected. Defaults to bangkok for the Bangkok launch.",
+      "pii": "no (enum)",
+      "store": "email_provider (custom field, after consent); analytics (enum property)",
+      "analytics_value": "enum value allowed"
+    },
+    {
+      "name": "source_page",
+      "type": "string_path",
+      "description": "Path/slug of the page where the action happened (no query string that may contain tokens/emails).",
+      "pii": "no when sanitised to path only",
+      "store": "email_provider (tag/field); analytics (page property)",
+      "analytics_value": "sanitised path allowed; strip ?email=, tokens"
+    },
+    {
+      "name": "campaign",
+      "type": "enum_or_slug",
+      "description": "Marketing campaign label (e.g. launch_list_2026q3). Controlled list, not free text.",
+      "pii": "no",
+      "store": "email_provider (tag); analytics (property)",
+      "analytics_value": "controlled label allowed"
+    },
+    {
+      "name": "consent_timestamp",
+      "type": "iso8601_datetime",
+      "description": "When the visitor gave consent (and when double opt-in was confirmed).",
+      "pii": "consent record",
+      "store": "email_provider (system of record); copy kept with welcome-copy version in repo",
+      "analytics_value": "not sent (no timestamp-by-user); aggregate counts only"
+    },
+    {
+      "name": "consent_copy_version",
+      "type": "string_version",
+      "description": "Version id of the consent wording shown (e.g. privacy-copy-2026-08-28), so the exact promise is auditable.",
+      "pii": "no",
+      "store": "email_provider (field); version controlled in repository",
+      "analytics_value": "not needed"
+    },
+    {
+      "name": "double_opt_in_status",
+      "type": "enum",
+      "enum": "double_opt_in_status",
+      "description": "State of the confirmation email.",
+      "pii": "account state",
+      "store": "email_provider",
+      "analytics_value": "aggregate confirmed count only"
+    },
+    {
+      "name": "unsubscribe_status",
+      "type": "enum",
+      "enum": "unsubscribe_status",
+      "description": "Subscription/suppression state. Unsubscribe must be one-click and suppression permanent.",
+      "pii": "account state",
+      "store": "email_provider (system of record; suppression list)",
+      "analytics_value": "count event unsubscribe allowed"
+    },
+    {
+      "name": "pack_interest_action",
+      "type": "enum",
+      "enum": "pack_interest_action",
+      "description": "Highest funnel step the contact reached regarding Bangkok First 90 Days.",
+      "pii": "no (enum)",
+      "store": "email_provider (tag/field); analytics (event property)",
+      "analytics_value": "enum allowed"
+    },
+    {
+      "name": "price_variant",
+      "type": "enum",
+      "enum": "price_variant",
+      "description": "Which offer/variant the visitor saw or reserved. Never a free-text price the visitor entered.",
+      "pii": "no (enum)",
+      "store": "email_provider (tag); analytics (property); payment provider (order metadata as enum)",
+      "analytics_value": "enum label allowed, not amount free text"
+    },
+    {
+      "name": "checkout_status",
+      "type": "enum",
+      "enum": "checkout_status",
+      "description": "Outcome state from the payment provider's webhook/redirect. Card data is never present.",
+      "pii": "transaction state",
+      "store": "payment_provider (system of record); minimal status mirrored to email_provider for delivery; analytics receives status enum + optional amount band label only",
+      "analytics_value": "enum status allowed; never card, billing address, or buyer email"
+    },
+    {
+      "name": "contact_email",
+      "type": "string_email",
+      "description": "The email address itself. Listed for completeness; it lives ONLY in the email provider and (for a purchase) the payment provider's transaction record. Not in analytics, not in the corrections register for reports.",
+      "pii": "yes - direct identifier",
+      "store": "email_provider (marketing consent) and payment_provider (transactional receipt); analytics NEVER; corrections register only if a reporter supplies it for a reply, kept in the private register, never analytics",
+      "analytics_value": "never"
+    }
+  ],
+  "events": [
+    {
+      "event": "page_view",
+      "fires": "on page load (cookieless analytics)",
+      "properties": [
+        "sanitised_path",
+        "referrer_type",
+        "device_class",
+        "country_derived"
+      ],
+      "forbidden": [
+        "email",
+        "any_pii",
+        "query_tokens"
+      ]
+    },
+    {
+      "event": "free_tool_started",
+      "fires": "visitor opens checklist or budget planner",
+      "properties": [
+        "tool_id"
+      ],
+      "forbidden": [
+        "entered_numbers",
+        "free_text"
+      ]
+    },
+    {
+      "event": "free_tool_completed",
+      "fires": "visitor finishes a free-tool flow",
+      "properties": [
+        "tool_id"
+      ],
+      "forbidden": [
+        "entered_numbers",
+        "free_text",
+        "income"
+      ]
+    },
+    {
+      "event": "audience_selected",
+      "fires": "audience/destination enum chosen",
+      "properties": [
+        "audience",
+        "destination"
+      ],
+      "forbidden": [
+        "free_text",
+        "employer",
+        "income"
+      ]
+    },
+    {
+      "event": "email_signup_submitted",
+      "fires": "form submitted pre-confirmation",
+      "properties": [
+        "source_page",
+        "campaign",
+        "audience",
+        "destination"
+      ],
+      "forbidden": [
+        "email",
+        "consent_timestamp_as_user_key"
+      ]
+    },
+    {
+      "event": "email_signup_confirmed",
+      "fires": "double opt-in confirmed (if enabled)",
+      "properties": [
+        "campaign"
+      ],
+      "forbidden": [
+        "email"
+      ]
+    },
+    {
+      "event": "pack_interest_click",
+      "fires": "reserve/early-access intent clicked",
+      "properties": [
+        "price_variant",
+        "source_page",
+        "campaign"
+      ],
+      "forbidden": [
+        "email",
+        "name",
+        "free_text"
+      ]
+    },
+    {
+      "event": "checkout_started",
+      "fires": "visitor reaches the payment provider's checkout",
+      "properties": [
+        "price_variant"
+      ],
+      "forbidden": [
+        "email",
+        "card",
+        "billing_address"
+      ]
+    },
+    {
+      "event": "checkout_status",
+      "fires": "payment provider webhook/redirect returns a state",
+      "properties": [
+        "checkout_status",
+        "price_variant",
+        "amount_band_label_optional"
+      ],
+      "forbidden": [
+        "card_data",
+        "buyer_email",
+        "full_address",
+        "name"
+      ]
+    },
+    {
+      "event": "unsubscribe",
+      "fires": "one-click unsubscribe used",
+      "properties": [],
+      "forbidden": [
+        "email"
+      ]
+    },
+    {
+      "event": "report_change_submitted",
+      "fires": "report-a-change form submitted",
+      "properties": [
+        "report_category_enum",
+        "area_enum"
+      ],
+      "forbidden": [
+        "free_text_body",
+        "email",
+        "any_document"
+      ]
+    }
+  ],
+  "data_store_assignment": {
+    "email_provider": {
+      "owns": [
+        "contact_email",
+        "consent_timestamp",
+        "consent_copy_version",
+        "double_opt_in_status",
+        "unsubscribe_status",
+        "audience",
+        "destination",
+        "source_page",
+        "campaign",
+        "pack_interest_action",
+        "price_variant"
+      ],
+      "notes": "System of record for identity and consent. Must support one-click unsubscribe and suppression. Tags are enums/controlled labels. Purchaser emails received from the payment provider are transactional unless separately consented to marketing."
+    },
+    "analytics": {
+      "owns": [
+        "aggregate_page_and_event_counts"
+      ],
+      "receives": [
+        "page_view",
+        "free_tool_started",
+        "free_tool_completed",
+        "audience_selected (enums)",
+        "email_signup_submitted/confirmed (counts)",
+        "pack_interest_click (enums)",
+        "checkout_started (enums)",
+        "checkout_status (enum + optional amount band)",
+        "unsubscribe (count)",
+        "report_change_submitted (category enum only)"
+      ],
+      "must_never_receive": [
+        "contact_email",
+        "consent_timestamp per user",
+        "any free text",
+        "passport/visa data",
+        "bank/card data",
+        "medical data",
+        "exact income numbers",
+        "employer details",
+        "report body text",
+        "documents"
+      ],
+      "notes": "Cookieless provider preferred (Cloudflare Web Analytics default; Umami if custom events/goals needed). Fixed property allow-list; URLs stripped of tokens/emails; budget/checklist inputs computed client-side and never transmitted."
+    },
+    "payment_provider": {
+      "owns": [
+        "card_and_billing_data",
+        "transaction_records",
+        "refunds",
+        "checkout_status",
+        "buyer_email_for_receipt"
+      ],
+      "mirrors_back": [
+        "checkout_status",
+        "price_variant",
+        "order_reference",
+        "delivery_email_if_marketing_consented"
+      ],
+      "notes": "All card data is entered on the payment provider's domain; the AbroadMate site never sees or stores card numbers. Merchant-of-record vs direct-merchant (own tax responsibility) depends on the chosen provider and operator jurisdiction - see final stack recommendation. Refund wording must match the provider's actual refund mechanics."
+    },
+    "corrections_register": {
+      "owns": [
+        "report_a_change_submissions"
+      ],
+      "receives": [
+        "report_category_enum",
+        "affected_area",
+        "what_is_wrong_text",
+        "optional_reply_email",
+        "optional_source_url",
+        "review_status",
+        "dates"
+      ],
+      "must_never_receive": [
+        "marketing_list_imports",
+        "analytics_events",
+        "payment_data"
+      ],
+      "notes": "Private register outside the public repository and outside analytics. Sensitive data sent in error is deleted same day and logged as a deletion event (date+category only). See abroadmate-report-change-workflow.md."
+    }
+  },
+  "consent_and_retention_rules": {
+    "capture": "Explicit opt-in tick, not pre-checked; consent wording versioned and dated; double opt-in recommended subject to reviewer.",
+    "no_bundling": "Using a free tool, submitting a correction, or checking out never signs anyone up to marketing.",
+    "retention": "Subscribers deleted on unsubscribe within 30 days (suppression address retained only to prevent re-add); corrections anonymised after the affected refresh cycle (max 24 months); analytics aggregate only with shortest useful window; payment records retained per the tax/accounting advice for the operator's jurisdiction (do not guess).",
+    "rights": "Single privacy contact; access/delete requests fulfilled within 30 days; no ID documents requested."
+  },
+  "out_of_scope": [
+    "credentials",
+    "api_keys",
+    "secrets",
+    "provider_endpoints",
+    "provider_sdk_code",
+    "pricing_decisions",
+    "conversion_rate_targets"
+  ],
+  "tags": {
+    "FACT": "Provider cookie/PII behaviour as stated on official pages checked 2026-08-28 (Cloudflare Web Analytics and Umami: no cookies, no personal data); payment providers collect card data on their own domains.",
+    "ASSUMPTION": "A fixed allow-list can be enforced in a small static site; email provider custom fields can hold the enum tags; budget/checklist math runs client-side.",
+    "REC": "Keep email the only direct identifier; enum-only analytics properties; cookieless analytics; never wire free text or tool inputs to analytics; legal/privacy reviewer signs the contract before integrations are enabled."
+  }
+}
