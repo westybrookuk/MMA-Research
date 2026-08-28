@@ -1,138 +1,104 @@
-# ThailandMate — Bangkok Audience Decision
+# ThailandMate — Final Bangkok Launch Recommendation
 
-**Date:** 28 August 2026
-**Scope:** The launch market is **Bangkok**. This brief picks the audience, using the prior research (`thailandmate-opportunity-report.md`, `thailandmate-launch-decision.md`, source map/register).
-**Tags:** **[FACT]** verified (sources in prior research, accessed 28 Aug 2026) · **[ASSUMPTION]** inference/hypothesis · **[REC]** recommendation · **[LEGAL-RISK]** legally sensitive / changes often. All scores and prices are assumptions to test — no traffic figures, commission rates, legal rules, or competitor prices are invented.
+**Date:** 28 August 2026 · **Launch market:** Bangkok
+**Purpose:** final audience and product decision for a **self-service** Bangkok planning product, consolidating the completed ThailandMate research.
+**Companion files:** `bangkok-content-priorities.csv` (first 10 pages/tools), `bangkok-validation-plan.md` (7-day experiment), plus `thailandmate-opportunity-report.md`, `thailandmate-source-map.csv`, `thailandmate-source-register.csv`, `bangkok-user-journeys.md`.
 
----
-
-## 1. The headline decision
-
-> **[REC] Primary audience for the Bangkok launch: relocating families — specifically self-funded / DIY international families (not corporate-package families).**
-> **[REC] Secondary audience: digital nomads / remote workers (DTV) — the top-of-funnel, affiliate-volume and tool-virality layer.**
-> **[REC] Exclude from the first paid product: retirees and workers/entrepreneurs.** Retirees are served later through vetted insurance/property lead-gen (high trust/health risk, preference for human help); entrepreneurs are **never** a self-service legal product — only lead-generation to licensed law/accounting firms.
-
-**Why families win in Bangkok specifically:** the earlier Chiang Mai logic pointed at nomads because that city is a nomad magnet. Bangkok is different. Its unique, hard-to-replicate assets are the country's best **international schools, hospitals, transit (BTS/MRT), airports and corporate jobs** — and the audience that *must* be in Bangkok to access them is **families**. Family decisions (school admission, housing near school) are time-boxed, high-stakes and expensive to get wrong, which creates strong willingness to pay; the problems are largely **operational and solvable with checklists and calculators**; and the regulatory/liability risk is **lower** than nomad tax, retiree medical/insurance, or entrepreneur company law.
+**Tags:** **[FACT]** verified (source URL + access date 28 Aug 2026) · **[ASSUMPTION]** hypothesis · **[REC]** recommendation · **[LEGAL-RISK]** legally sensitive / changes often.
+All scores, weights and prices are **[ASSUMPTION]** judgements to be tested. No audience sizes beyond the one cited visa figure, no affiliate commissions, no legal rules, and no competitor prices are invented.
 
 ---
 
-## 2. Weighted comparison of the four audiences for Bangkok
+## 1. Weighted scorecard (self-service Bangkok product)
 
-Weights (sum 100%) chosen for a **self-service launch product with affiliate/lead-gen, low liability, low upkeep**:
+Scored 1–5 (5 = best). Weights are chosen for a **zero-brand, self-service digital launch**: cheap reachable distribution and repeatable content matter disproportionately, while high-value but relationship/lead-gen-driven audiences mature later. For the two risk/burden criteria, **5 = lowest risk / lowest burden**.
 
-| Criterion | Weight |
-|---|---|
-| First-90-day urgency / pain | 20% |
-| Affiliate / lead-gen potential | 20% |
-| Size / discoverability (search & communities) | 15% |
-| Willingness to pay for a self-service product | 15% |
-| Solvable with checklists / calculators / verified content | 15% |
-| Trust/safety margin (5 = lowest legal/tax/visa/health risk) | 10% |
-| Maintenance ease (5 = lowest upkeep) | 5% |
+| Criterion | Weight | Remote workers / nomads | Families | Retirees | Workers / founders |
+|---|---|---|---|---|---|
+| Demand (search/community volume × first-90-day urgency) | 15% | **5** | 4 | 3 | 3 |
+| Willingness to pay for a **self-service** product | 15% | 3 | **4** | 3 | 2 |
+| Monetisation potential (affiliate + lead-gen) | 20% | 4 | **5** | 5 | 4 |
+| Ease of reaching audience at zero brand | 15% | **5** | 3 | 3 | 3 |
+| Content repeatability (procedural / toolable / evergreen) | 15% | **5** | 3 | 3 | 2 |
+| Legal / safety margin (5 = lowest risk) | 10% | 3 | **4** | 2 | 1 |
+| Maintenance ease (5 = lowest burden) | 10% | 3 | **4** | 2 | 2 |
+| **Weighted total** | 100% | **4.10** | **3.90** | 3.20 | 2.60 |
 
-Scores 1–5 (5 best). **Scores are [ASSUMPTION].**
+*Calculation note (weights): nomads = .75+.45+.80+.75+.75+.30+.30 = 4.10; families = .60+.60+1.00+.45+.45+.40+.40 = 3.90; retirees = 3.20; founders = 2.60.*
 
-| Audience | Pain | Discover | WTP | Aff/Lead | Solvable | Safety | Low-maint | **Weighted** | Rank |
-|---|---|---|---|---|---|---|---|---|---|
-| **Families** | 5 | 4 | 4 | 5 | 4 | 4 | 3 | **4.35** | **1** |
-| **Digital nomads / remote workers** | 4 | 5 | 3 | 4 | 5 | 3 | 3 | **4.00** | **2** |
-| **Retirees** | 4 | 3 | 3 | 5 | 3 | 2 | 2 | **3.45** | 3 |
-| **Workers / entrepreneurs** | 4 | 3 | 2 | 4 | 2 | 1 | 2 | **2.85** | 4 |
+**Why remote workers win *for a self-service launch* [REC]:** they are the cheapest audience to reach (open digital-nomad channels), their problems are highly procedural and repeatable (visa → banking → connectivity → housing → transit → compliance → day-counting), and they convert through programmatic **affiliate** products (insurance, eSIM/VPN, coliving) that exist on day one — no partner supply chain needed. **Families score higher on willingness-to-pay and monetisation**, but that value is mostly **lead-gen** (property agents, schools, insurance brokers) — high-LTV, but it depends on partner relationships a new brand does not have yet, and the school/housing decision is relational and offline. Families are therefore the **strategic secondary**, not the self-service wedge.
 
 ---
 
-## 3. Audience-by-audience evaluation (Bangkok)
+## 2. Primary and secondary audience
 
-### 3.1 Families — **PRIMARY** (4.35)
-
-1. **Size & discoverability.** Bangkok has Thailand's densest international-school ecosystem and the largest concentration of expat families (many tied to corporate jobs). Discovery runs through school-admission searches, parent Facebook groups (e.g. Bangkok Expats ~100k+ members per community sources), family media, InterNations and word-of-mouth. **[FACT]** Bangkok international-school tuition runs roughly **280,000–1,200,000 THB/year** (e.g. International School Bangkok KG–G5 ≈ **1,015,000 THB** for 2026/27); Phuket ~300k–800k; Chiang Mai/Pattaya ~200k–400k. [iSchoolAdvisor](https://www.ischooladvisor.com/articles/schooling-and-school-choice/costs-and-fees-understanding-funding/international-school-fees-bangkok-2026-cost-guide-expat) [ISB fees](https://www.isb.ac.th/admissions/fees)
-2. **Most urgent first-90-day problems.** (a) **School selection + admission deadlines/waitlists** — often starts 6–12 months pre-arrival; (b) **housing near the school** — Bangkok traffic means where you live is dictated by school/work (Sukhumvit, Sathorn, Nichada Thani, Bang Na); (c) family/dependent/guardian visas; (d) family health insurance + pediatric care; (e) commute/school bus vs car; (f) air quality for children; (g) domestic help/nannies; (h) pets. **[FACT]** "Live near school to beat Bangkok traffic" and "school waitlists — apply early" are the recurring family challenges. [Siam Real Estate](https://www.siamrealestate.com/thailand-property-news/bringing-up-expat-kids-in-thailand-family-life-schools-homes-2025)
-3. **Willingness to pay (self-service).** **High [ASSUMPTION].** Families committing 600k–1.2m+ THB/yr to schooling will pay a small amount to avoid a wrong school/commute/housing decision. **Segment nuance:** fully corporate-relocated families are handled by relocation firms — **target self-funded/DIY families** (remote-working, entrepreneur, lifestyle-migrant) who lack that support.
-4. **Affiliate / lead-gen.** **Strongest and most Bangkok-specific.** Property/rental agents (high-ticket, recurring), school-admission leads/sponsored school listings (test whether schools pay), family health-insurance brokers (recurring premiums), movers/relocation, domestic-help placement, car/lease.
-5. **Solvable with content/tools.** **High.** School-fee calculator, family cost-of-living calculator, neighborhood-by-school **commute matcher** (BTS/MRT + bus), application timeline/checklist, dependent-visa checklist, housing checklist — all buildable. School "fit" is relational, but the *process and numbers* are tool-able.
-6. **Trust / legal / tax / visa / health risk.** **Lower than the alternatives.** Mostly operational decisions; dependent visas and pediatric health carry some risk but there is little regulatory gray area (vs nomad tax or company law). Accuracy on fees/visas matters; medical content stays general.
-7. **Maintenance burden.** **Medium.** School fees update annually; neighborhoods/rents drift; national visa rules apply. Predictable cadence.
-
-### 3.2 Digital nomads / remote workers — **SECONDARY** (4.00)
-
-1. **Size & discoverability.** Largest, most online, most distributable audience; strong SEO and active communities (r/digitalnomad, r/Thailand, Facebook, coworking such as The Hive). **[FACT]** DTV drew **35,000+ applications in year one**. But Bangkok nomad content is more saturated, the incumbent (Thailand Starter Kit) runs Bangkok relocation, and nomads culturally associate Thailand with Chiang Mai.
-2. **Most urgent first-90-day problems.** DTV application/500k seasoning; **banking exclusion for DTV holders** [FACT — Kasikorn terms explicitly exclude DTV/tourist]; condo-hunting in Sukhumvit/On Nut/Ari/Phra Khanong; BTS/MRT + apps; SIM/eSIM; TDAC/TM30/90-day; **180-day tax-residency/remittance** [LEGAL-RISK]; air-pollution days; coworking.
-3. **WTP (self-service).** **Moderate [ASSUMPTION]** — younger, price-sensitive, used to free content; a ~$29–49 pack is plausible but Bangkok nomads skew slightly higher-budget.
-4. **Affiliate / lead-gen.** Strong and fast: travel/health insurance (affiliate), eSIM/VPN, coliving/serviced apartments, coworking, money transfer (Wise-type), condo agents.
-5. **Solvable with content/tools.** **Very high** — onboarding, transit, neighborhoods, banking workarounds, day-count tracker are all procedural.
-6. **Risk.** Medium — **tax residency is the main [LEGAL-RISK]**; healthcare is excellent; visa is well-trodden.
-7. **Maintenance.** Medium — banking/tax rules change; rents.
-
-**Role [REC]:** nomads are the **traffic and affiliate layer** — free tools (visa comparator, 180-day tracker, cost calculator) bring links and emails; monetised via affiliate and a lower-priced pack. Families are the **high-value conversion/lead-gen layer**. They share housing/transit/onboarding content.
-
-### 3.3 Retirees — **EXCLUDE from first paid product** (3.45)
-
-- High lead value (insurance, property, private hospitals) but: **highest trust/safety risk** (health/insurance escalation with age, pension/remittance tax [LEGAL-RISK], elderly fraud, medical-advice liability); older users prefer human brokers/agents over a self-service PDF; and Bangkok is not the primary retiree city (Chiang Mai/Hua Hin/Pattaya are cheaper/calmer; Bangkok draws retirees chiefly for its hospitals/airport). **[FACT]** O-A visa ties the right to stay to approved insurance; premiums escalate and options narrow after ~65–70.
-- **[REC] Serve later** via vetted insurance-broker and property lead-gen (especially the Bangkok medical-access angle), not the launch pack.
-
-### 3.4 Workers / entrepreneurs — **EXCLUDE from first paid product** (2.85)
-
-- Bangkok is the corporate/startup hub, but the core needs are **regulated professional work**: Non-B/work permits (often employer-handled) and company setup under the **Foreign Business Act (49% cap; nominee shareholding illegal with criminal penalties; ~2M THB capital and 4-Thai-to-1-foreigner ratio per work permit)** [FACT/LEGAL-RISK]; corporate bank accounts tightened from 1 Jan 2026.
-- **Self-service solvability is low and liability is the highest of all four audiences** — incorporation/tax cannot be safely turned into a DIY checklist. **[REC] Never sell a DIY legal/tax product**; later, route high-ticket leads to vetted law/accounting/BOI firms.
+- **[REC] Primary: digital nomads / remote workers (DTV) arriving in Bangkok.** Self-serve, online, fast feedback, affiliate-cash-flow from week one.
+- **[REC] Secondary: relocating (self-funded/DIY) families.** Highest long-term value via property, school and family-insurance lead-gen; build this as the brand and partner pipeline mature (school-fee calculator + school↔neighborhood commute matcher are the wedge tools).
+- **[REC] Exclude from the first paid product:**
+  - **Retirees** — highest health/insurance and tax-trust risk; they prefer human brokers; monetise later via vetted insurance/property lead-gen, never a DIY health/legal guide.
+  - **Workers / founders** — company setup is regulated professional work (Foreign Business Act, work permits); **never** a self-service legal product; route high-ticket leads to vetted law/accounting firms only.
 
 ---
 
-## 4. Recommendations
+## 3. The exact problem the first paid product solves
 
-### 4.1 Primary audience → **Self-funded/DIY relocating families (Bangkok)**
-They uniquely *need* Bangkok (schools/jobs), have acute, time-boxed, high-stakes decisions, strong ability to pay, the highest lead-gen value, solvable operational problems, and lower legal/medical/tax liability than the alternatives.
+> **[REC] Remote workers moving to Bangkok waste their first weeks — and risk their visa, tax and banking setup — because the rules are scattered, contradictory and recently changed (DTV holders are now excluded from major-bank accounts; the 180-day tax-residency clock; TDAC/TM30/90-day compliance), while generic "move to Thailand" content is not city-specific or current.**
 
-### 4.2 Secondary audience → **Digital nomads / remote workers (DTV)**
-Run free tools and affiliate content for nomads in parallel to capture volume, links and email signups; convert overlap (remote-working families) toward the family product.
+The product is a **current, Bangkok-specific, step-by-step "First 90 Days" system** that tells them, **in order**, exactly what to do for: the right visa and documents, banking-by-visa-status (and interim money options), SIM/eSIM/home internet/VPN, which neighborhood and how to rent safely, BTS/MRT/airport setup, health insurance and clinics, TDAC/TM30/90-day compliance, and a **180-day tax-residency tracker** — with checklists, decision tools and a short list of verified providers.
 
-### 4.3 Explicitly exclude from the first paid product
-- **Retirees** — high health/tax/trust risk, prefer human help; pursue later via vetted insurance/property lead-gen.
-- **Workers/entrepreneurs** — legal/tax work must be done by licensed professionals; lead-gen only, never DIY advice.
-- (Also exclude fully corporate-relocated families — they are served by relocation companies; focus on DIY families.)
-
-### 4.4 First paid product + price hypothesis
-**[REC] Product: "Bangkok Family First-90-Days Planner"** — a digital pack built around the decisions that actually gate a family move:
-- **International-school shortlist + fee/value worksheet** (curriculum, area, age, all-in fees);
-- **Family cost-of-living calculator** (school, rent, insurance, transport, domestic help);
-- **Neighborhood-by-school commute matcher** (BTS/MRT + school bus vs car, live-near-school logic);
-- **Relocation timeline/checklist** (school applications 6–12 months out, housing, TDAC/TM30/90-day, dependent/guardian visas);
-- **Family healthcare & insurance guide**; pets and domestic-helper checklists.
-Free lead magnet: the school-fee calculator + family cost calculator. Upsell: vetted provider introductions (property, school-admission advisor, family-insurance broker).
-
-**Price hypothesis [ASSUMPTION — test, do not anchor]:** presale **US$49 vs US$79** for the self-serve planner (a family spending 600k–1.2m THB/yr on school; deliberately a fraction of one month's school fees). A higher-touch tier (planner + small-group expert Q&A, or +3 vetted provider intros) can be tested at **~US$99–149**. *No competitor price is assumed — these are hypotheses for A/B testing.*
-
-### 4.5 Three most promising acquisition channels
-1. **Organic search anchored by high-intent tools** — families Google decisions before arrival: "international school Bangkok fees", "best neighborhood for families Bangkok", "cost of living Bangkok with kids", "moving to Bangkok with children". The calculators/commute-matcher are link/email magnets.
-2. **Parent & expat communities** — Bangkok family/parent Facebook groups, BKK family media, InterNations, school-admission forums; answer questions and offer the free calculator/checklist (value-first, mod-approved).
-3. **Partner / lead-gen distribution** — property/rental agents on the BTS/school corridors, school-admission circuits and international-school fairs, and family-insurance brokers co-promote to families already relocating (referral/sponsored-listing arrangements; terms to be negotiated — no rates assumed).
-
-### 4.6 First five affiliate / lead-gen categories
-1. **Housing / property** — rental agents and serviced apartments along BTS/school corridors (high-ticket, recurring moves). Lead-gen.
-2. **International schools** — school-admission leads / sponsored listings / school-fair partnerships (test whether schools pay; education-advisory leads). Lead-gen/sponsorship.
-3. **Family health insurance** — family/international plan broker leads (recurring, high premium). [health/insurance compliance — link OIC/longstay sources]
-4. **Connectivity & home setup** — eSIM/VPN affiliate + home fiber/utilities setup (low-ticket, high-volume, first-week). Affiliate.
-5. **Family logistics & services** — movers/relocation, domestic-help/nanny placement, car/lease, kids' activities, dental/health clinics. Lead-gen/sponsored.
-
-(Honourable mention, handle with care: **vetted visa/legal agents for dependent/guardian visas** as paid lead-gen — [LEGAL-RISK], disclose relationships, never present as legal advice.)
+**Verified anchors behind this problem [FACT]:**
+- DTV: 5-year multi-entry, 180 days/entry, 500,000 THB proof of funds, apply abroad; **35,000+ applications in its first year** (~95/day) — applications, not approvals. [IMI Daily](https://www.imidaily.com/asia-pacific/thailands-digital-nomad-visa-surpasses-35000-applicants-in-its-first-year/) (accessed 28 Aug 2026).
+- **Banking exclusion:** Kasikorn's published account terms state accounts are not opened for holders of tourist/VOA/free-visa/**DTV** visas; major banks require non-immigrant visas. [Kasikorn](https://www.kasikornbank.com/en/personal/account/pages/savings.aspx) (28 Aug 2026).
+- **Tax:** residents (180+ days) may be taxed on foreign income remitted to Thailand under the 2024 change; DTV carries no tax provision; LTR has an overseas-income exemption. [LEGAL-RISK] [Chiang Rai Times](https://www.chiangraitimes.com/finance/thailand-digital-nomad-tax-rule/) (28 Aug 2026).
+- Official portals: [thaievisa.go.th](https://www.thaievisa.go.th/), [ltr.boi.go.th](https://ltr.boi.go.th/), [immigration.go.th](https://www.immigration.go.th/) (28 Aug 2026).
 
 ---
 
-## 5. Verified facts vs assumptions
+## 4. Three paid-product offers and price hypotheses
 
-**Verified [FACT] (re-verify at publish time):**
-- Bangkok international-school tuition ≈ 280k–1.2m THB/yr; ISB KG–G5 ≈ 1.015m THB (2026/27).
-- Bangkok is ~28–39% more expensive than Chiang Mai (rent ~80% higher) — Numbeo/LivingCost.
-- BTS/MRT make car-free living feasible; traffic dictates living near work/school.
-- World-class private hospitals (Bumrungrad, Samitivej, Bangkok Hospital/BDMS).
-- DTV: 35,000+ first-year applications; major banks exclude DTV/tourist holders; 180-day tax-residency/2024 remittance rule; LTR has overseas-income exemption.
-- Foreign Business Act 49% cap, nominee illegality, ~2M THB capital & 4:1 ratio per foreign work permit; corporate-account tightening from 1 Jan 2026.
-- Incumbent Thailand Starter Kit runs Bangkok relocation with paid tiers (verified US$100 / $1,500 / $2,600; consult US$149 via Baan Smile).
+Prices are **[ASSUMPTION]** ranges for A/B testing — deliberately framed against *no invented competitor price*; they will be set against unprompted price answers in interviews.
 
-**Assumptions [ASSUMPTION] to test:**
-- All weighted scores and the family-over-nomad ranking for Bangkok.
-- DIY/self-funded families (not corporate-package) will buy a $49–79 digital planner.
-- Schools and property agents will pay for leads/listings (needs outreach; rates unknown).
-- Family lead value exceeds nomad affiliate volume in practice.
-- Acquisition-channel conversion and all success thresholds.
+1. **"Bangkok First 90 Days" digital planner (self-serve)** — checklists, decision worksheets, banking/connectivity/housing/transit guides, compliance calendar, verified provider list. **Test US$29 vs US$49** one-time.
+2. **Planner Pro (incl. the 180-day tax/visa tracker + quarterly rule updates)** — the planner plus the maintained day-count/tracker tool and update alerts. **Test US$49 vs US$79** (annual or one-time+year-one updates).
+3. **Planner + human help** — digital planner plus a 60-minute setup call **or** three vetted referrals (visa agent, insurer, condo/rental agent). **Test US$99 vs US$149.**
 
-**Recommendations [REC]** are the decisions above; **[LEGAL-RISK]** items (tax, dependent visas, insurance, anything company-related) must carry "verify with the official source / a licensed professional" framing, a last-updated date, and links to the primary sources in `thailandmate-source-register.csv`.
+*(Phase-2 family edition: "Bangkok Family First-90-Days Planner" with school-fee calculator and commute matcher — test $49 vs $79; not the launch product.)*
+
+---
+
+## 5. First ten Bangkok content pages / tools
+
+Full detail (intent, monetisation, sources, maintenance, risk) is in **`bangkok-content-priorities.csv`**. Summary:
+
+1. DTV & Bangkok long-stay **visa comparator + DTV application checklist** [LEGAL-RISK]
+2. **180-day tax-residency tracker + plain-English explainer** [LEGAL-RISK]
+3. **Opening a Thai bank account by visa type** (DTV reality + interim money workarounds)
+4. Bangkok **neighborhoods for remote workers** (Sukhumvit/On Nut/Ari/Phra Khanong/Phaya Thai) + rents
+5. **First-7-days arrival checklist** (TDAC/TM30, SIM/eSIM, BTS/MRT/Rabbit, apps, money)
+6. **Connectivity guide** — tourist SIM/eSIM, home fiber, VPN
+7. **Cost-of-living Bangkok calculator** (remote-worker budget)
+8. **Health insurance & Bangkok clinics** for nomads (travel vs local cover, direct billing)
+9. **Getting around** — BTS/MRT + ride apps + airport-rail link guide
+10. **"Bangkok First 90 Days" planner sales page** (paid; bundles 1–9)
+
+(Family fast-follow, post-validation: international-school fee calculator and school↔neighborhood commute matcher.)
+
+---
+
+## 6. Best five acquisition channels
+
+1. **Tool-led organic search (SEO).** Free high-intent tools — visa comparator, 180-day tracker, cost calculator, banking checker — capture pre-arrival Google traffic and earn links; email-gate the *results/export*, not the tool.
+2. **Reddit + Facebook communities.** r/digitalnomad, r/Thailand, and Bangkok digital-nomad/expat Facebook groups — answer real questions, share the free tool/checklist value-first (mod-approved, no spam).
+3. **Coworking, coliving & serviced-apartment partnerships.** Spaces like The Hive and serviced-condo/coliving operators in Sukhumvit — referral codes, newcomer discounts, in-venue events for newly-arrived nomads.
+4. **Short-form social video.** TikTok / Instagram Reels / YouTube Shorts — "first week in Bangkok" arrival, banking and transit how-tos; high organic reach among the target demographic, links in bio to the free tool.
+5. **Niche newsletter / partner co-marketing + email nurture.** Co-promote with nomad newsletters and affiliate brands (insurance/eSIM/VPN), then nurture captured emails with a "5 mistakes in your first 30 days" sequence.
+
+---
+
+## 7. Facts vs assumptions vs recommendations
+
+**Verified facts [FACT] (source + 28 Aug 2026 access):** DTV terms and 35,000+ first-year applications [IMI Daily](https://www.imidaily.com/asia-pacific/thailands-digital-nomad-visa-surpasses-35000-applicants-in-its-first-year/); DTV/tourist banking exclusion [Kasikorn](https://www.kasikornbank.com/en/personal/account/pages/savings.aspx); 180-day tax residency / 2024 remittance rule and LTR exemption [Chiang Rai Times](https://www.chiangraitimes.com/finance/thailand-digital-nomad-tax-rule/), [BOI LTR](https://ltr.boi.go.th/); visa application via [thaievisa.go.th](https://www.thaievisa.go.th/); immigration/TDAC/TM30/90-day via [immigration.go.th](https://www.immigration.go.th/); Bangkok international-school tuition ~280k–1.2m THB/yr [iSchoolAdvisor](https://www.ischooladvisor.com/articles/schooling-and-school-choice/costs-and-fees-understanding-funding/international-school-fees-bangkok-2026-cost-guide-expat), [ISB fees](https://www.isb.ac.th/admissions/fees); Bangkok ~28–39% pricier than Chiang Mai [Numbeo](https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=Thailand&city1=Bangkok&country2=Thailand&city2=Chiang+Mai), [LivingCost](https://livingcost.org/cost/bangkok/chiang-mai); Foreign Business Act 49% cap/nominee illegality [Belaws](https://belaws.com/thailand/starting-a-business-in-thailand-challenges/); insurance regulator/list [oic.or.th](https://www.oic.or.th/), [longstay.tgia.org](http://longstay.tgia.org/). (Full register: `thailandmate-source-register.csv`.)
+
+**Assumptions [ASSUMPTION] to test:** all scores/weights; that nomads will pay $29–79 for a self-service planner; that tools convert visitors to email at ~10%+; that affiliate products convert from week one; that family lead-gen partners (agents/schools/brokers) will pay for leads (unverified — needs outreach); all acquisition-channel conversion and the 7-day thresholds in `bangkok-validation-plan.md`.
+
+**Recommendations [REC]:** primary = remote workers/nomads; secondary = DIY families; exclude retiree and founder DIY products; first product = Bangkok First-90-Days planner; channels as above; run the 7-day experiment before building. **[LEGAL-RISK]** tax, visa, insurance and any company content must stay general, link official sources, carry a last-updated date, and never give personalised advice.
