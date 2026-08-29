@@ -1,0 +1,632 @@
+{
+  "destinationId": "thailand-bangkok",
+  "checkedAt": "2026-08-28",
+  "methodology": "Data compiled 2026-08-28 from dated listing platforms and transport sources. Rent ranges are ESTIMATES from sampled listings/guides, not quotes or guarantees; always confirm live listings. Qualitative area notes are cautious and not definitive. Commute scenarios give BTS/MRT stop counts where documented and clearly flag door-to-door times as estimates to verify in a maps app at rush hour. Scores default to null until verified. No legal/visa/tax advice. Deposit/lease terms are market practice to verify per contract.",
+  "neighbourhoods": [
+    {
+      "id": "on-nut",
+      "name": "On Nut",
+      "audienceTags": [
+        "remote-worker"
+      ],
+      "workSuitability": {
+        "score": null,
+        "summary": "Popular budget-friendly base for remote workers on the eastern Sukhumvit BTS line; cafes and some coworking options, with cheaper rents than central Sukhumvit. Home/reliable internet expected to be the main work base; verify venue Wi-Fi and fibre per address.",
+        "confidence": "low"
+      },
+      "transport": {
+        "railLines": [
+          "BTS Sukhumvit Line"
+        ],
+        "stations": [
+          "On Nut (E9)"
+        ],
+        "airportNotes": "On Nut is on the Sukhumvit BTS line (E9); no direct Airport Rail Link. BTS east toward Samrong / west into central Siam/Asok. Suvarnabhumi access is via road/taxi or BTS+ARL transfer (Phaya Thai/Makkasan) - verify door-to-door.",
+        "sources": [
+          "S10",
+          "S11",
+          "S12"
+        ]
+      },
+      "familySuitability": {
+        "score": null,
+        "summary": "Lower rents give families more space for the money, but it is a longer BTS ride to central international schools and the area is more local/mixed; family amenities and school commute need case-by-case checks.",
+        "confidence": "unverified"
+      },
+      "housing": {
+        "records": [
+          {
+            "type": "Studio",
+            "unit": "THB/month",
+            "lowThb": 10000,
+            "typicalThb": 12000,
+            "highThb": 14000,
+            "sourceIds": [
+              "S1",
+              "S3",
+              "S4"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "Entry studios/older condos; range from listings and guides."
+          },
+          {
+            "type": "1-bedroom",
+            "unit": "THB/month",
+            "lowThb": 12000,
+            "typicalThb": 15000,
+            "highThb": 22000,
+            "sourceIds": [
+              "S1",
+              "S3",
+              "S4"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "Listings seen ~12,000-23,000 THB (The Base Sukhumvit 77 ~13.5-15k; Aspire Onnut ~19.5-23k)."
+          },
+          {
+            "type": "2-bedroom",
+            "unit": "THB/month",
+            "lowThb": 24000,
+            "typicalThb": 30000,
+            "highThb": 41000,
+            "sourceIds": [
+              "S1"
+            ],
+            "confidence": "low",
+            "publishStatus": "needs_verification",
+            "notes": "2BR samples ~24,000-41,000 from a single listings source; corroborate before publishing."
+          }
+        ],
+        "depositLeaseNote": "Typical market practice (NOT a legal rule): long-term leases commonly ask for a 1-year contract with a 2-month security deposit + 1-month advance rent; shorter 3-6 month terms often carry a premium. Verify per contract/listing; not a quote or guarantee.",
+        "sources": [
+          "S1",
+          "S3",
+          "S4"
+        ]
+      },
+      "everydayConvenience": "On Nut junction has a large Tesco Lotus, Century The Movie Plaza mall, street food and local markets; strong everyday convenience for the price. Verify specific building proximity.",
+      "noiseAndPace": "Busy road-corridor area with Sukhumvit Road traffic; lively and local, quieter in the sois. Verify noise for a specific unit at different times.",
+      "coworkingAndConnectivity": "Cafes and some coworking in/around On Nut/Phra Khanong; home fibre widely available (plans typically ~399-1,299 THB/mo per operator sources). Verify fibre at exact address and coworking day-pass rates.",
+      "commuteScenarios": [
+        {
+          "to": "Asok (central Sukhumvit)",
+          "railStopsApprox": 5,
+          "walkingNote": "Walk to BTS On Nut + walk from Asok to destination",
+          "transitNote": "BTS westbound ~5 stops (On Nut E9 to Asok E4); rail ride roughly 15-20 min off-peak, longer at rush hour",
+          "doorToDoorNote": "Estimate ~30-45 min door-to-door; CONFIRM in a maps app at 08:00",
+          "confidence": "low",
+          "publishStatus": "needs_verification"
+        }
+      ],
+      "riskLevel": "low",
+      "publishStatus": "needs_verification",
+      "lastChecked": "2026-08-28",
+      "reviewFrequency": "quarterly"
+    },
+    {
+      "id": "phra-khanong",
+      "name": "Phra Khanong",
+      "audienceTags": [
+        "remote-worker"
+      ],
+      "workSuitability": {
+        "score": null,
+        "summary": "Emerging remote-worker area one stop west of On Nut (BTS Phra Khanong E8); growing cafe/coworking scene (e.g. coworking venues in Phra Khanong). Cheaper than central Sukhumvit. Housing data here is weakly sourced and must be verified against live listings.",
+        "confidence": "low"
+      },
+      "transport": {
+        "railLines": [
+          "BTS Sukhumvit Line"
+        ],
+        "stations": [
+          "Phra Khanong (E8)"
+        ],
+        "airportNotes": "On the Sukhumvit BTS line; one stop closer to central than On Nut. Airport access via road or BTS+ARL transfer - verify.",
+        "sources": [
+          "S10",
+          "S11"
+        ]
+      },
+      "familySuitability": {
+        "score": null,
+        "summary": "More affordable and residential-feeling than central Sukhumvit; school/commute and family amenities unverified for this specific area.",
+        "confidence": "unverified"
+      },
+      "housing": {
+        "records": [
+          {
+            "type": "Studio",
+            "unit": "THB/month",
+            "lowThb": 11000,
+            "typicalThb": 13000,
+            "highThb": 16000,
+            "sourceIds": [
+              "S3",
+              "S4"
+            ],
+            "confidence": "low",
+            "publishStatus": "needs_verification",
+            "notes": "From secondary guides only (cited ~12,000-18,000 for 1BR); no dedicated listing source gathered - verify on listings."
+          },
+          {
+            "type": "1-bedroom",
+            "unit": "THB/month",
+            "lowThb": 13000,
+            "typicalThb": 16000,
+            "highThb": 20000,
+            "sourceIds": [
+              "S3",
+              "S4"
+            ],
+            "confidence": "low",
+            "publishStatus": "needs_verification",
+            "notes": "Secondary guides cite ~12,000-18,000 THB; needs live-listing confirmation."
+          },
+          {
+            "type": "2-bedroom",
+            "unit": "THB/month",
+            "lowThb": 22000,
+            "typicalThb": 28000,
+            "highThb": 38000,
+            "sourceIds": [
+              "S4"
+            ],
+            "confidence": "low",
+            "publishStatus": "needs_verification",
+            "notes": "Extrapolated/weak; do not publish without listing corroboration."
+          }
+        ],
+        "depositLeaseNote": "Typical market practice (NOT a legal rule): long-term leases commonly ask for a 1-year contract with a 2-month security deposit + 1-month advance rent; shorter 3-6 month terms often carry a premium. Verify per contract/listing; not a quote or guarantee.",
+        "sources": [
+          "S3",
+          "S4"
+        ]
+      },
+      "everydayConvenience": "Local markets, street food and convenience stores along Sukhumvit; mall access via short BTS ride. Verify building-level convenience.",
+      "noiseAndPace": "Mix of busy Sukhumvit frontage and quieter residential sois; gentrifying. Verify per unit.",
+      "coworkingAndConnectivity": "Coworking venues exist in Phra Khanong (e.g. reported spaces); home fibre available. Verify venue status, rates and fibre at address.",
+      "commuteScenarios": [
+        {
+          "to": "Asok (central Sukhumvit)",
+          "railStopsApprox": 4,
+          "walkingNote": "Walk to Phra Khanong E8 + destination walk",
+          "transitNote": "BTS ~4 stops to Asok E4; roughly 12-18 min on rail off-peak",
+          "doorToDoorNote": "Estimate ~25-40 min door-to-door; CONFIRM in maps at 08:00",
+          "confidence": "low",
+          "publishStatus": "needs_verification"
+        }
+      ],
+      "riskLevel": "low",
+      "publishStatus": "needs_verification",
+      "lastChecked": "2026-08-28",
+      "reviewFrequency": "quarterly"
+    },
+    {
+      "id": "ari-phaya-thai",
+      "name": "Ari / Phaya Thai",
+      "audienceTags": [
+        "remote-worker",
+        "family"
+      ],
+      "workSuitability": {
+        "score": null,
+        "summary": "Trendy, cafe-dense low-rise neighbourhood popular with remote workers for a calmer, local feel; good BTS access and strong cafe work culture. Distinct coworking may be thinner than Sukhumvit - verify venues.",
+        "confidence": "low"
+      },
+      "transport": {
+        "railLines": [
+          "BTS Sukhumvit Line",
+          "Airport Rail Link (at Phaya Thai)"
+        ],
+        "stations": [
+          "Ari",
+          "Saphan Khwai",
+          "Phaya Thai (BTS + ARL interchange)"
+        ],
+        "airportNotes": "Phaya Thai is the BTS/Airport Rail Link interchange - among the best rail-based airport access for remote workers flying often. ARL City Line runs to Suvarnabhumi.",
+        "sources": [
+          "S5",
+          "S6",
+          "S11"
+        ]
+      },
+      "familySuitability": {
+        "score": null,
+        "summary": "Calm, residential, local-community feel with parks and lower-rise living; rents are mid-to-high. School commute and family housing (2BR+) should be verified per family.",
+        "confidence": "low"
+      },
+      "housing": {
+        "records": [
+          {
+            "type": "Studio",
+            "unit": "THB/month",
+            "lowThb": 14000,
+            "typicalThb": 18000,
+            "highThb": 22000,
+            "sourceIds": [
+              "S5",
+              "S6"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "DDProperty/listing samples: Centric Ari ~19,000 1BR; studio band inferred from nearby 1BR - verify."
+          },
+          {
+            "type": "1-bedroom",
+            "unit": "THB/month",
+            "lowThb": 19000,
+            "typicalThb": 22000,
+            "highThb": 30000,
+            "sourceIds": [
+              "S5",
+              "S6"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "1BR listings ~19,000-35,000 (Nue Evo Ari 21k; Noble ReD higher)."
+          },
+          {
+            "type": "2-bedroom",
+            "unit": "THB/month",
+            "lowThb": 30000,
+            "typicalThb": 35000,
+            "highThb": 45000,
+            "sourceIds": [
+              "S5",
+              "S6"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "2BR listings ~26,000-45,000 (Rhythm/Fynn 30-35k typical)."
+          }
+        ],
+        "depositLeaseNote": "Typical market practice (NOT a legal rule): long-term leases commonly ask for a 1-year contract with a 2-month security deposit + 1-month advance rent; shorter 3-6 month terms often carry a premium. Verify per contract/listing; not a quote or guarantee.",
+        "sources": [
+          "S5",
+          "S6"
+        ]
+      },
+      "everydayConvenience": "Cafes, restaurants, community malls and markets (JJ/Or Tor Kor nearby via Chatuchak); very walkable within Ari soi network. Verify specific needs.",
+      "noiseAndPace": "Quieter and more residential than Sukhumvit/Asok; low-rise, local pace. Main road traffic at peak.",
+      "coworkingAndConnectivity": "Strong cafe-for-work culture; verify dedicated coworking venues and rates. Home fibre widely available (operator sources ~399-1,299 THB/mo).",
+      "commuteScenarios": [
+        {
+          "to": "Siam (central)",
+          "railStopsApprox": 5,
+          "walkingNote": "Walk to BTS Ari/Saphan Khwai + destination walk",
+          "transitNote": "BTS southbound ~5 stops to Siam; rail roughly 12-18 min",
+          "doorToDoorNote": "Estimate ~25-35 min door-to-door; CONFIRM in maps at 08:00",
+          "confidence": "low",
+          "publishStatus": "needs_verification"
+        },
+        {
+          "to": "Suvarnabhumi airport (ARL)",
+          "railStopsApprox": null,
+          "walkingNote": "BTS to Phaya Thai then ARL City Line",
+          "transitNote": "ARL City Line Phaya Thai to airport; transfer + ride - verify total",
+          "doorToDoorNote": "Plan ~60-75 min via rail; road taxi varies; CONFIRM",
+          "confidence": "low",
+          "publishStatus": "needs_verification"
+        }
+      ],
+      "riskLevel": "low",
+      "publishStatus": "needs_verification",
+      "lastChecked": "2026-08-28",
+      "reviewFrequency": "quarterly"
+    },
+    {
+      "id": "central-sukhumvit",
+      "name": "Central Sukhumvit (Asok / Phrom Phong / Thonglor / Ekkamai)",
+      "audienceTags": [
+        "remote-worker",
+        "family"
+      ],
+      "workSuitability": {
+        "score": null,
+        "summary": "The most connected, amenity-rich expat corridor: coworking, cafes, malls and business hubs; highest convenience and highest rents. Best for workers who want central networking and minimal transit.",
+        "confidence": "low"
+      },
+      "transport": {
+        "railLines": [
+          "BTS Sukhumvit Line",
+          "MRT Blue Line (Sukhumvit station at Asok)"
+        ],
+        "stations": [
+          "Asok",
+          "Phrom Phong",
+          "Thong Lo",
+          "Ekkamai"
+        ],
+        "airportNotes": "Multiple BTS stations and MRT interchange at Asok; airport via BTS+ARL (Phaya Thai) or road.",
+        "sources": [
+          "S4",
+          "S10",
+          "S11",
+          "S13"
+        ]
+      },
+      "familySuitability": {
+        "score": null,
+        "summary": "Excellent convenience and international amenities, but premium rents and busier nightlife pockets (esp. parts of Thonglor/Asok); families often pay for location over space. Verify school commute and unit size.",
+        "confidence": "low"
+      },
+      "housing": {
+        "records": [
+          {
+            "type": "Studio",
+            "unit": "THB/month",
+            "lowThb": 15000,
+            "typicalThb": 20000,
+            "highThb": 25000,
+            "sourceIds": [
+              "S3",
+              "S4"
+            ],
+            "confidence": "low",
+            "publishStatus": "needs_verification",
+            "notes": "Central Sukhumvit studio band from guides; gather dedicated listings before publish."
+          },
+          {
+            "type": "1-bedroom",
+            "unit": "THB/month",
+            "lowThb": 20000,
+            "typicalThb": 27000,
+            "highThb": 35000,
+            "sourceIds": [
+              "S3",
+              "S4",
+              "S13"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "Guides cite modern 1BR ~20,000-35,000 across Asok/Phrom Phong/Thonglor/Ekkamai."
+          },
+          {
+            "type": "2-bedroom",
+            "unit": "THB/month",
+            "lowThb": 40000,
+            "typicalThb": 55000,
+            "highThb": 70000,
+            "sourceIds": [
+              "S4",
+              "S13"
+            ],
+            "confidence": "low",
+            "publishStatus": "needs_verification",
+            "notes": "Premium 2BR band; weakly sourced in this study - verify on listings."
+          }
+        ],
+        "depositLeaseNote": "Typical market practice (NOT a legal rule): long-term leases commonly ask for a 1-year contract with a 2-month security deposit + 1-month advance rent; shorter 3-6 month terms often carry a premium. Verify per contract/listing; not a quote or guarantee.",
+        "sources": [
+          "S3",
+          "S4",
+          "S13"
+        ]
+      },
+      "everydayConvenience": "Highest in the city: BTS/MRT, malls (EmQuartier/Terminal 21), international supermarkets, hospitals, dining and coworking within minutes.",
+      "noiseAndPace": "Lively and busy; Thonglor/Asok have nightlife and traffic. Quieter sub-sois exist; verify per unit.",
+      "coworkingAndConnectivity": "Densest coworking supply (multiple venues) and reliable fibre; day-pass rates ~290-900 THB and hot-desk ~3,500-8,000 THB/mo per provider/aggregator sources. Verify venue.",
+      "commuteScenarios": [
+        {
+          "to": "Sathorn/Silom business area",
+          "railStopsApprox": null,
+          "walkingNote": "BTS to Sala Daeng or MRT Sukhumvit->Silom",
+          "transitNote": "Short BTS/MRT hop or 10-20 min ride-hail off-peak; rush-hour road travel can be much longer",
+          "doorToDoorNote": "Estimate ~20-45 min by rail; road time highly variable - CONFIRM at 08:00/18:00",
+          "confidence": "low",
+          "publishStatus": "needs_verification"
+        }
+      ],
+      "riskLevel": "low",
+      "publishStatus": "needs_verification",
+      "lastChecked": "2026-08-28",
+      "reviewFrequency": "quarterly"
+    },
+    {
+      "id": "sathorn",
+      "name": "Sathorn / Silom",
+      "audienceTags": [
+        "remote-worker",
+        "family"
+      ],
+      "workSuitability": {
+        "score": null,
+        "summary": "Central business district: best for professionals and finance/business workers, with BTS (Silom line) + MRT. Coworking exists; quieter residential sub-areas. Premium rents.",
+        "confidence": "low"
+      },
+      "transport": {
+        "railLines": [
+          "BTS Silom Line",
+          "MRT Blue Line"
+        ],
+        "stations": [
+          "Chong Nonsi",
+          "Surasak",
+          "Sala Daeng (BTS)",
+          "Silom / Lumphini (MRT)"
+        ],
+        "airportNotes": "BTS Silom line and MRT; airport via BTS+ARL (Phaya Thai) or road (longer in traffic).",
+        "sources": [
+          "S2",
+          "S9"
+        ]
+      },
+      "familySuitability": {
+        "score": null,
+        "summary": "Central, well-serviced with hospitals and international schools in/around the area; premium housing. Lumphini Park nearby for families. Verify school commute and unit size.",
+        "confidence": "low"
+      },
+      "housing": {
+        "records": [
+          {
+            "type": "Studio",
+            "unit": "THB/month",
+            "lowThb": 16000,
+            "typicalThb": 20000,
+            "highThb": 24000,
+            "sourceIds": [
+              "S2"
+            ],
+            "confidence": "low",
+            "publishStatus": "needs_verification",
+            "notes": "Hipflat Sathorn studio average ~USD476 (~16k); single aggregator - corroborate."
+          },
+          {
+            "type": "1-bedroom",
+            "unit": "THB/month",
+            "lowThb": 22000,
+            "typicalThb": 30000,
+            "highThb": 40000,
+            "sourceIds": [
+              "S2",
+              "S9"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "Hipflat 1BR average ~USD896-918 (~30k); Villa Sathorn 1BR ~18-25k older build; range ~22-40k."
+          },
+          {
+            "type": "2-bedroom",
+            "unit": "THB/month",
+            "lowThb": 35000,
+            "typicalThb": 55000,
+            "highThb": 65000,
+            "sourceIds": [
+              "S2",
+              "S9"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "2BR ~28-40k (older Villa Sathorn) up to ~58-65k aggregator average; wide range by building."
+          }
+        ],
+        "depositLeaseNote": "Typical market practice (NOT a legal rule): long-term leases commonly ask for a 1-year contract with a 2-month security deposit + 1-month advance rent; shorter 3-6 month terms often carry a premium. Verify per contract/listing; not a quote or guarantee. Listings in this area explicitly cite 1-year contracts with 2-month deposit + 1-month advance.",
+        "sources": [
+          "S2",
+          "S9"
+        ]
+      },
+      "everydayConvenience": "Business and embassy area: malls, hospitals (BNH), international dining, Lumphini Park; very convenient, fewer backpacker/tourist crowds than Sukhumvit.",
+      "noiseAndPace": "CBD - busy weekdays, quieter residential towers; Silom nightlife in pockets. Verify per unit.",
+      "coworkingAndConnectivity": "Coworking and business lounges present; fibre reliable. Verify venues/rates per address.",
+      "commuteScenarios": [
+        {
+          "to": "Sukhumvit/Asok",
+          "railStopsApprox": null,
+          "walkingNote": "BTS Silom line to Siam then Sukhumvit line, or MRT",
+          "transitNote": "Rail ~15-25 min via Siam interchange; road via Sathorn/Silom can be slow at rush hour",
+          "doorToDoorNote": "Estimate ~25-45 min by rail; CONFIRM in maps at 08:00",
+          "confidence": "low",
+          "publishStatus": "needs_verification"
+        }
+      ],
+      "riskLevel": "low",
+      "publishStatus": "needs_verification",
+      "lastChecked": "2026-08-28",
+      "reviewFrequency": "quarterly"
+    },
+    {
+      "id": "bang-na",
+      "name": "Bang Na",
+      "audienceTags": [
+        "family"
+      ],
+      "workSuitability": {
+        "score": null,
+        "summary": "Far-eastern, affordable and residential: strongest for families seeking space/value (and BITEC/mega-mall amenities). Longer BTS ride to central work hubs; fewer central coworking venues - better for home-based workers.",
+        "confidence": "low"
+      },
+      "transport": {
+        "railLines": [
+          "BTS Sukhumvit Line"
+        ],
+        "stations": [
+          "Bang Na",
+          "Udom Suk",
+          "Bearing"
+        ],
+        "airportNotes": "On the eastern Sukhumvit BTS line (Bang Na E13/Udom Suk E12/Bearing E14). Far from central Siam/Asok by rail. (An MRT monorail/Yellow Line serves the broader Bang Na-Samrong area - verify station access for a specific address.)",
+        "sources": [
+          "S7",
+          "S8",
+          "S11"
+        ]
+      },
+      "familySuitability": {
+        "score": null,
+        "summary": "Best value for space among these areas: larger condos and houses, family-oriented malls (Mega Bangna, BITEC), lower rents. Longer commute to central international schools/jobs - verify school commute carefully.",
+        "confidence": "low"
+      },
+      "housing": {
+        "records": [
+          {
+            "type": "Studio",
+            "unit": "THB/month",
+            "lowThb": 9000,
+            "typicalThb": 11000,
+            "highThb": 13000,
+            "sourceIds": [
+              "S7",
+              "S8"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "Listings/local apartments ~9,500-13,000; local apartments from ~5,400 (renthub)."
+          },
+          {
+            "type": "1-bedroom",
+            "unit": "THB/month",
+            "lowThb": 11000,
+            "typicalThb": 14000,
+            "highThb": 18000,
+            "sourceIds": [
+              "S7",
+              "S8"
+            ],
+            "confidence": "medium",
+            "publishStatus": "ok",
+            "notes": "1BR ~9,500-22,000 (Regent Home 9.5-13k; Ideo O2 14-22k; Elio Del Nest 13-18k); typical ~14k."
+          },
+          {
+            "type": "2-bedroom",
+            "unit": "THB/month",
+            "lowThb": 22000,
+            "typicalThb": 27000,
+            "highThb": 30000,
+            "sourceIds": [
+              "S7"
+            ],
+            "confidence": "low",
+            "publishStatus": "needs_verification",
+            "notes": "Hipflat 2BR average ~USD805 (~27k); limited 2BR samples - corroborate."
+          }
+        ],
+        "depositLeaseNote": "Typical market practice (NOT a legal rule): long-term leases commonly ask for a 1-year contract with a 2-month security deposit + 1-month advance rent; shorter 3-6 month terms often carry a premium. Verify per contract/listing; not a quote or guarantee. Bang Na listings explicitly cite 1-year lease with 2-month security deposit + 1-month advance; common-area fees may be included.",
+        "sources": [
+          "S7",
+          "S8"
+        ]
+      },
+      "everydayConvenience": "Strong suburban convenience: Mega Bangna, BITEC, Central Bang Na, markets and local food; more car-dependent than central areas.",
+      "noiseAndPace": "Quieter, residential and family-oriented; less nightlife. Sukhumvit/roads still busy.",
+      "coworkingAndConnectivity": "Home fibre available; dedicated coworking thinner than central - verify venues. Home work setup is realistic.",
+      "commuteScenarios": [
+        {
+          "to": "Asok (central Sukhumvit)",
+          "railStopsApprox": 9,
+          "walkingNote": "Walk to BTS Bang Na/Udom Suk + destination walk",
+          "transitNote": "BTS westbound ~9 stops to Asok; rail roughly 25-35 min off-peak, longer at rush hour",
+          "doorToDoorNote": "Estimate ~45-60 min door-to-door; CONFIRM in maps at 08:00 - key family/commute trade-off",
+          "confidence": "low",
+          "publishStatus": "needs_verification"
+        }
+      ],
+      "riskLevel": "low",
+      "publishStatus": "needs_verification",
+      "lastChecked": "2026-08-28",
+      "reviewFrequency": "quarterly"
+    }
+  ]
+}
